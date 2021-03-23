@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.container h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    text-shadow:4px 4px lightskyblue;
+}
+.container h1:hover{
+    color:crimson;
+    cursor: pointer;
+    text-shadow: 4px 4px yellow;
+}
+.container .art1 p{
+    margin:30px 20px 20px 50px;
+    font-size: 20px;
+}
+.container .salad{
+    max-height: 350px;
+    max-width: 350px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    color: purple;
+    font-weight: bold;
+    text-shadow:4px 4px lightskyblue;
+}
+h2:hover{
+    color:crimson;
+    cursor: pointer;
+    text-shadow: 4px 4px yellow;
+}
+
+.container .make_row{
+    width: 100%;
+    height: 100%;
+    display: inline-block
+}
+.watermelon-gif{
+    max-height: 350px;
+    max-width: 350px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.container .tomato{
+    max-width: 90px;
+    max-height: 90px;
+}
+ 
+@media only screen and (max-width: 430px){
+   
+    .container .salad{
+        max-height: 250px;
+        max-width: 250px;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+}
+        

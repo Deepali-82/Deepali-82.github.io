@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:lightskyblue;
+    background-size: cover;
+}
+hr{
+    background: white;
+}
+.contact-form{
+    background: rgba(0,0,0, .6);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+    box-shadow: 0 0 10px 3px grey;
+}
